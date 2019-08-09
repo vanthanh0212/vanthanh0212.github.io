@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.cot2 img {
+    padding-left: 10%;
+}
+p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+span.motaqt {
+    color: red;
+    margin: 15px 0px;
+}
+
+h2.text-md-right.tieudecap2.text-sm-center {
+    margin-bottom: 15px;
+}
+
+h2.tieudecap2 {
+    font-family: sans-serif;
+}
+
+a.btn.btn-primary {
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.tt p {
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+.tt h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+.tt img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.tt {
+    position: relative;
+    z-index: 2;
+    padding-top: 10%;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+.xuong {
+    z-index: 2; 
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    border:  1px solid white;
+    border-radius: 25px;
+    left: 48.5%;
+    bottom: 2%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.xuong:hover {
+    bottom: 5%;
+}
+.xuong:after {
+    margin-left: -1px;
+    width: 3px;
+    position: absolute;
+    content: "";
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 65%;
+}
+.khoitt1 {
+    width: 100%;
+    height: 100%;
+    background: #e9585f;
+    position: relative;
+}
+
+.khoitt1:before {
+    content: "";
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #de454c;
+}
+.navbar .navbar-expand-lg .navbar-light .bg-light .fixed-top {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+.navbar-nav .nav-link {
+    padding-top: .425rem;
+    display: block;
+    padding-bottom: .425rem;
+}
+li.nav-item {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 15px;
+}
+#contact {
+    background-color: #516ea6;
+}
+
+@media screen and (max-width: 667px){
+    ul.nav.navbar-nav.ml-auto {
+    display: inline-block;
+}
+
+a.navbar-brand {
+    width: 100%;
+    text-align: center;
+}
+
+li.nav-item {
+    float: left;
+    margin: 0px 20px;
+    text-align: center;
+}
+li.nav-item:nth-child(3n){
+    margin:0px 0px;
+}
+.navbar .navbar-expand-lg .navbar-light .bg-light .fixed-top {
+    margin-bottom: 10rem;
+}
+.khoitt1 {
+    width: 100%;
+    margin-top: 7rem;
+    height: 90%;
+    background: #e9585f;
+    position: relative;
+}
+h3.tieudecap3 {
+    text-align: center;
+    margin-top: 20px;
+}
+h2.tieudecap2 {
+    text-align: center;
+
+}
+.khoittnho {
+    border-bottom: 1px solid black;
+}
+.cot2 img {
+    text-align: center;
+    padding-left: 18%;
+}
+.tt {
+    padding-top: 3%;
+}
+.xuong {
+
+    width: 30px;
+    height: 60px;
+    left: 46.5%;
+    bottom: 10%;
+
+}
+.tt p {
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+.tt h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+.tt img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+}
